@@ -19,13 +19,13 @@ const EpisodeDetailsScreen = props => {
     return(
         <View style={Styles.containerEpisodeDetails}>
             <View style={{width:'100%', height:180, backgroundColor:'#015222', alignItems:'center', justifyContent: 'center'}}>
-                    <Text style={ { fontSize:50, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#fff'} }>{episodeDetails.title}</Text>
+                    <Text style={ { fontSize:50, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#fff'} }>{episodeDetails.title}</Text>
             </View>
             <View style={{width:'100%', height:70, backgroundColor:'#0b996a', alignItems:'center', justifyContent: 'center'}}>
-                <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#fff'} }>Characters</Text>
+                <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#fff'} }>Characters</Text>
             </View>
             <View style={{width: '100%', alignItems:'center', justifyContent: 'center',marginTop:20, marginBottom:40}}>
-                    <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#fff'} }>{episodeCharcters(episodeDetails.characters)}</Text>
+                    <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#fff'} }>{episodeCharcters(episodeDetails.characters)}</Text>
             </View>
         </View>
     )

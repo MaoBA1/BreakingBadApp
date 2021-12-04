@@ -36,11 +36,11 @@ const EpisodesScreen = props => {
                     <View style={{alignItems: 'center'}}>
                         <TouchableOpacity onPress={() => props.navigation.navigate('EpisodeDetails',{EpisodeDetails:episode.item})} style={Styles.btnSyleEpisodesQuotes} >
                             <View style={{width:'100%', marginBottom:10}}>
-                                <Text style={ { fontSize:18, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#fff'} }>{episode.item.title}</Text>
+                                <Text style={ { fontSize:18, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#fff'} }>{episode.item.title}</Text>
                             </View>
                             <View style={{flexDirection:'column'}}>
-                                <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#807d75', width:'100%', marginBottom:20} }>Season {episode.item.season} | Episode{episode.item.episode}</Text>
-                                <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#807d75', width:'100%'} }>Air date: {episode.item.air_date}</Text>
+                                <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#807d75', width:'100%', marginBottom:20} }>Season {episode.item.season} | Episode{episode.item.episode}</Text>
+                                <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#807d75', width:'100%'} }>Air date: {episode.item.air_date}</Text>
                             </View>
                         </TouchableOpacity>
                     </View>

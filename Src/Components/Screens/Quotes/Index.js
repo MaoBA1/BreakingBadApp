@@ -36,11 +36,11 @@ const QuotesScreen = props => {
                     <View style={{alignItems: 'center'}}>
                         <View style={Styles.btnSyleEpisodesQuotes} >
                             <View style={{width:'100%', marginBottom:10}}>
-                                <Text style={ { fontSize:18, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#fff'} }>{quote.item.quote}</Text>
+                                <Text style={ { fontSize:18, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#fff'} }>{quote.item.quote}</Text>
                             </View>
                             <View style={{flexDirection:'column'}}>
-                                <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#807d75', width:'100%', marginBottom:10} }>{quote.item.author}</Text>
-                                <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#807d75', width:'100%'} }>{quote.item.series}</Text>
+                                <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#807d75', width:'100%', marginBottom:10} }>{quote.item.author}</Text>
+                                <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#807d75', width:'100%'} }>{quote.item.series}</Text>
                             </View>
                         </View>
                     </View>

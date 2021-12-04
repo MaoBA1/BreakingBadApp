@@ -32,13 +32,13 @@ const CharacterDetailsScreen = props => {
         <View style={Styles.charPageContainer}>
             <View style={{width: '100%',flexDirection:'row'}}>
                 <View style={{width:'50%', marginLeft:30,marginTop:30}}>
-                        <Text style={ { fontSize:30, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7'} }>{char.name}</Text>
-                        <Text style={ { fontSize:30, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7', marginBottom:30} }>{char.nickname}</Text> 
-                        <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7'} }>Occupation: {'\n'+char.occupation}</Text>
-                        <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7'} }>BirthDay: {char.birthday}</Text>
-                        <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:characterStatus(char.status) } }>Status: {char.status}</Text>
-                        <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7'} }>Appearance: {charAppearance(char.appearance)}</Text>
-                        <Text style={ { fontSize:20, fontFamily: 'Sarpanch-ExtraBold', fontWeight: 'bold', color:'#dedad7'} }>Portrayed: {char.portrayed}</Text>               
+                        <Text style={ { fontSize:30, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7'} }>{char.name}</Text>
+                        <Text style={ { fontSize:30, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7', marginBottom:30} }>{char.nickname}</Text> 
+                        <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7'} }>Occupation: {'\n'+char.occupation}</Text>
+                        <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7'} }>BirthDay: {char.birthday}</Text>
+                        <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:characterStatus(char.status) } }>Status: {char.status}</Text>
+                        <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7'} }>Appearance: {charAppearance(char.appearance)}</Text>
+                        <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold', fontWeight: 'bold', color:'#dedad7'} }>Portrayed: {char.portrayed}</Text>               
                 </View>
                 <View style = {{backgroundColor:characterStatus(char.status), width:'2%', height:'100%', alignItems:'center',marginLeft:60}}></View>
                 <View style={{width: '25%', height:'100%'}}>

@@ -14,7 +14,7 @@ import EpisodesScreen, { ScreenOptions as EpisodesScreenOptions } from '../Compo
 import EpisodeDetailsScreen , { ScreenOptions as EpisodeDetailsScreenOptions } from '../Components/Screens/Episodes/EpisodeDetails';
 
 import QuotesScreen, { ScreenOptions as QuotesScreenOptions } from '../Components/Screens/Quotes/Index';
-import QuoteDetailsScreen, { ScreenOptions as QuoteDetailsScreenOptions } from '../Components/Screens/Quotes/QuoteDetails';
+
 
 
 const CharactersStackNavigator = createStackNavigator();
@@ -82,7 +82,7 @@ const QuotesStackNavigator = createStackNavigator();
 
 export const QuotesStack = () => {
     return(
-        <QuotesStackNavigator.Navigator screenOptions={{
+        <QuotesStackNavigator.Navigator screenOptions = {{
             headerStyle: {
               backgroundColor: '#0b996a'
             },
@@ -97,12 +97,7 @@ export const QuotesStack = () => {
                 name = 'Quotes'
                 component = { QuotesScreen }
                 options = { QuotesScreenOptions }
-        />
-        <QuotesStackNavigator.Screen 
-                name = 'QuoteDetails'
-                component = { QuoteDetailsScreen }
-                options = { QuoteDetailsScreenOptions }
-        />
+            />
         </QuotesStackNavigator.Navigator>
     )
 };

@@ -51,17 +51,17 @@ const CharactersScreen = props => {
                         <View style={{alignItems: 'center'}}> 
                             <TouchableOpacity style={Styles.btnSyle} onPress={() => props.navigation.navigate('CharacterDetails',{charcterDetails:charcter.item})}>
                                 <View style={Styles.txtView}>
-                                    <Text style={ { fontSize:30, fontFamily: 'Sarpanch-ExtraBold'} }>{charcter.item.name},</Text>
-                                    <Text style={ { fontSize:25, fontFamily: 'Sarpanch-ExtraBold'} }>{charcter.item.nickname},</Text>
-                                    <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold'} }>{charcter.item.occupation}</Text>
+                                    <Text style={ { fontSize:30, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.name},</Text>
+                                    <Text style={ { fontSize:25, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.nickname},</Text>
+                                    <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.occupation}</Text>
                                     {
                                         charcter.item.birthday == 'Unknown' ?
                                         ( 
-                                            <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold'} }>Unknown birthday</Text>
+                                            <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold'} }>Unknown birthday</Text>
                                         )
                                         :
                                         (
-                                            <Text style={ { fontSize:15, fontFamily: 'Sarpanch-ExtraBold'} }>{charcter.item.birthday}</Text>
+                                            <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.birthday}</Text>
                                         )
                                     }
                                 </View>

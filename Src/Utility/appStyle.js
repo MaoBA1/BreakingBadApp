@@ -15,9 +15,6 @@ export default StyleSheet.create({
         flex: 1,
         backgroundColor: '#1c1f1e',
         flexDirection:'row',
-        
-        //alignItems: 'center',
-        // justifyContent: 'center',
       },
     scrollerStyle:{
       width:'100%',
