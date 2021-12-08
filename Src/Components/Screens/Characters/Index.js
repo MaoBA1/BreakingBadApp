@@ -51,8 +51,8 @@ const CharactersScreen = props => {
                         <View style={{alignItems: 'center'}}> 
                             <TouchableOpacity style={Styles.btnSyle} onPress={() => props.navigation.navigate('CharacterDetails',{charcterDetails:charcter.item})}>
                                 <View style={Styles.txtView}>
-                                    <Text style={ { fontSize:30, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.name},</Text>
-                                    <Text style={ { fontSize:25, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.nickname},</Text>
+                                    <Text style={ { fontSize:25, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.name},</Text>
+                                    <Text style={ { fontSize:20, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.nickname},</Text>
                                     <Text style={ { fontSize:15, fontFamily: 'AppleSDGothicNeo-Bold'} }>{charcter.item.occupation}</Text>
                                     {
                                         charcter.item.birthday == 'Unknown' ?
@@ -66,9 +66,9 @@ const CharactersScreen = props => {
                                     }
                                 </View>
                                 <View style={Styles.imgView}>
-                                    <View style = {{backgroundColor:characterStatus(charcter.item.status), width:'7%', height:150, marginLeft:30}}></View>
+                                    <View style = {{backgroundColor:characterStatus(charcter.item.status), width:'7%', height:150, marginLeft:20}}></View>
                                     <Image
-                                        style = { { width: 100, height: 150,  } } 
+                                        style = { { width: 100, height: 150, borderBottomRightRadius:10, borderTopRightRadius:10 } } 
                                         source = { { uri:charcter.item.img } }
                                     />
                                 </View>

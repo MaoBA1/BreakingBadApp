@@ -23,18 +23,19 @@ export default StyleSheet.create({
       alignItems:'center',
       justifyContent: 'center',
       backgroundColor:'#83c7b1',
-      height:200,
+      height:150,
       margin:20,
       width:370,
       borderRadius:10,
       borderWidth:3,
       borderColor: '#cee0db',
       flexDirection: 'row',
-      padding:50
+      
     },
     txtView:{
-      marginLeft:50,
-      width:'70%',
+      marginLeft:130,
+      width:'50%',
+      paddingVertical:40
       
     },
     webTitleView:{
@@ -57,7 +58,7 @@ export default StyleSheet.create({
       borderRadius:10,
       borderWidth:3,
       borderColor: '#cee0db',
-      padding:40
+      padding:20
     },
     
 });
